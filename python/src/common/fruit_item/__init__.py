@@ -1,1 +1,1 @@
-from .fruit_item import FruitItem
+from .fruit_item import FruitItem, canonical_top

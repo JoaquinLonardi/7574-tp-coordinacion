@@ -1,6 +1,12 @@
 import functools
 
 
+def canonical_top(items, size):
+    ordered = sorted(items)
+    ordered.reverse()
+    return ordered[:size]
+
+
 @functools.total_ordering
 class FruitItem:
 
